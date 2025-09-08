@@ -1,0 +1,78 @@
+.div-conten-sectionHero{
+    display: flex;
+    width: 98%;
+    font-family: var(--text-font);
+}
+
+.div-content-sectionHero__seccion{
+    display: flex;
+    gap: 56px;
+    padding: 36px 82px 96px 82px;
+}
+
+.div-content-sectionHero__seccion__div-descriptionHero{
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+    height: 410px;
+}
+
+.div-content-sectionHero__seccion__div-descriptionHero h1{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.div-content-sectionHero__seccion__div-descriptionHero p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+.div-content-sectionHero__seccion__div-descriptionHero p span{
+    color: #673de6;
+    font-weight: 700;
+}
+
+.div-content-sectionHero__seccion__div-descriptionHero a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #673de6;
+    width: 185px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin: 24px 0 12px 0;
+}
+
+.div-content-sectionHero__seccion__div-descriptionHero__spanDescription{
+    display: flex;
+    align-content: center;
+    gap: 10px;
+}
+
+.div-content-sectionHero__seccion__div-descriptionHero__spanDescription svg{
+    color: #00B090;
+    width: 24px;
+    height: 24px;
+}
+
+.div-content-sectionHero__seccion__div-descriptionHero__spanGarantia{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.div-content-sectionHero__seccion__div-descriptionHero__spanGarantia svg{
+    width: 16px;
+    height: 16px;
+}
+
+.div-content-sectionHero__seccion__div-imgHero img{
+    width: 615px;
+    height: 400px;
+}

@@ -1,0 +1,93 @@
+.div-content-header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+}
+
+.div-content-header__header{
+    display: flex;
+    
+    width: 98%;
+}
+
+.div-content-header__header__div-logo{
+    display: flex;
+    padding: 30px 0 30px 40px;
+}
+
+.div-content-header__header__div-navigator{
+    display: flex;
+    padding: 30px 0 30px 40px;
+}
+
+.div-content-header__header__div-navigator nav{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    gap: 32px;
+}
+
+.div-content-header__header__div-navigator nav a{
+    display: flex;
+    align-items: center;
+    font-family: var(--text-font);
+    font-size: 15px;
+    color: #1d1e20;
+}
+
+.div-content-header__header__div-navigator nav a svg{
+    width: 24px;
+    height: 24px;
+}
+
+.div-content-header__header__div-navigator nav a span{
+    display: flex;
+}
+
+.div-content-header__header__div-controls{
+    display: flex;
+    position: absolute;
+    right: 5px;
+    gap: 32px;
+    padding: 20px 40px 30px 0;
+}
+
+.div-content-header__header__div-controls__a-contentImgButton{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.div-content-header__header__div-controls__a-contentImgButton span{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: var(--text-font);
+}
+
+.div-content-header__header__div-controls__aButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 50px;
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+.div-content-header__header__div-controls__aButton span{
+    display: flex;
+    align-items: center;
+    padding: 11px 15px;
+    width: 110px;
+    height: 50px;
+    font-family: var(--text-font);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.div-content-header__header__div-controls__a-contentImgButton img{
+    width: 32px;
+    height: 20px;
+}
+

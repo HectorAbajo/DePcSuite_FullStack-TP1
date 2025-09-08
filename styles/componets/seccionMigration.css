@@ -1,0 +1,100 @@
+.div-content-seccionMigration{
+    background-color: #1F1346;
+    font-family: var(--text-font);
+    width: 100%;
+}
+
+.div-content-seccionMigration__seccion{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px;
+    gap: 48px;
+}
+
+/* DESCRIPTION */
+.div-content-seccionMigration__seccion__div-content-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.div-content-seccionMigration__seccion__div-content-description h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #fff;
+}
+
+.div-content-seccionMigration__seccion__div-content-description__div-p{
+    display: flex;
+    justify-content: center;
+    margin: 0 15vw 0 15vw;
+}
+
+.div-content-seccionMigration__seccion__div-content-description p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+
+/* CARDS */
+.div-content-seccionMigration__seccion__div-content-cards{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.div-content-seccionMigration__seccion__div-content-cards__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 360px;
+    height: auto;
+    padding: 32px;
+    background-color: #2F1C6A;
+    color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.div-content-seccionMigration__seccion__div-content-cards__card svg{
+    align-self: flex-start;
+    background-color: #5D2DE6;
+    color: #F4F5FF;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.div-content-seccionMigration__seccion__div-content-cards__card span{
+    align-self: flex-start;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.div-content-seccionMigration__seccion__div-content-cards__card p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* BUTTON */
+.div-content-seccionMigration__seccion__div-content-a{
+    display: flex;
+    justify-content: center;
+}
+
+.div-content-seccionMigration__seccion__div-content-a a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #673DE6;
+    color: #FFFFFF;
+    width: 185px;
+    height: 50px;
+    border-radius: 8px;
+}
