@@ -1,29 +1,34 @@
-.div-conten-sectionHero{
+.div-content-sectionHero{
     display: flex;
-    width: 98%;
-    font-family: var(--text-font);
+    justify-content: center;
+    width: 100vw;
+    padding: 36px 0 36px 0;
+    margin-top: 95px;
 }
 
 .div-content-sectionHero__seccion{
+    font-family: var(--text-font);
     display: flex;
-    gap: 56px;
-    padding: 36px 82px 96px 82px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 90px 0 90px;
+    padding: 0 40px 0 40px;
+    width: 98vw;
 }
+
+
+/* DESCRICION */
 
 .div-content-sectionHero__seccion__div-descriptionHero{
     display: flex;
     flex-direction: column;
-    width: 455px;
+    width: 463px;
     height: 410px;
 }
 
-.div-content-sectionHero__seccion__div-descriptionHero h1{
-    font-size: 38px;
-    font-weight: 700;
-    margin-bottom: 24px;
-}
-
 .div-content-sectionHero__seccion__div-descriptionHero p{
+    color: #1D1E20;
+    font-family: var(--text-font);
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
@@ -32,7 +37,34 @@
 
 .div-content-sectionHero__seccion__div-descriptionHero p span{
     color: #673de6;
+    
+}
+
+.div-content-sectionHero__seccion__div-descriptionHero h1{
+    color: #1D1E20;
+    font-size: 36px;
+    line-height: 40px;
     font-weight: 700;
+    letter-spacing: 1px;
+    width: 463px;
+    height: 80px;
+    padding-right: 20px;
+    margin-bottom: 24px;
+}
+
+.div-content-sectionHero__seccion__div-descriptionHero__spanDescription{
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.div-content-sectionHero__seccion__div-descriptionHero__spanDescription svg{
+    color: #00B090;
+    width: 24px;
+    height: 24px;
 }
 
 .div-content-sectionHero__seccion__div-descriptionHero a{
@@ -47,18 +79,11 @@
     font-weight: 700;
     color: #fff;
     margin: 24px 0 12px 0;
+    transition: background-color .1s ease-in-out;
 }
 
-.div-content-sectionHero__seccion__div-descriptionHero__spanDescription{
-    display: flex;
-    align-content: center;
-    gap: 10px;
-}
-
-.div-content-sectionHero__seccion__div-descriptionHero__spanDescription svg{
-    color: #00B090;
-    width: 24px;
-    height: 24px;
+.div-content-sectionHero__seccion__div-descriptionHero a:hover {
+    background-color: #5025d1;
 }
 
 .div-content-sectionHero__seccion__div-descriptionHero__spanGarantia{
@@ -72,7 +97,137 @@
     height: 16px;
 }
 
+/* IMAGEN */
+
 .div-content-sectionHero__seccion__div-imgHero img{
-    width: 615px;
-    height: 400px;
+    width: 880px;
+    height: 580px;
+}
+
+@media screen and (max-width: 1550px){
+    .div-content-sectionHero__seccion__div-descriptionHero{
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 1360px){
+
+    .div-content-sectionHero__seccion{
+        padding: 0;
+        margin: 0 40px 0 40px;
+    }
+
+    .div-content-sectionHero__seccion__div-descriptionHero{
+        width: 456px;
+    }
+
+    .div-content-sectionHero__seccion__div-imgHero img{
+        width: 616px;
+        height: 403px;
+    }
+
+}
+
+@media screen and (max-width: 1140px){
+    .div-content-sectionHero{
+        padding-top: 0;
+    }
+
+    .div-content-sectionHero__seccion__div-descriptionHero{
+        width: 440px;
+    }
+
+    .div-content-sectionHero__seccion__div-descriptionHero p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .div-content-sectionHero__seccion__div-descriptionHero h1{
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    .div-content-sectionHero__seccion {
+        flex-direction: column;
+        padding-top: 62px;
+        margin: 0 113px 0 113px;
+        gap: 5px;
+    }
+
+    .div-content-sectionHero__seccion__div-descriptionHero{
+      width: 100%;
+    }
+
+    .div-content-sectionHero__seccion__div-descriptionHero p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .div-content-sectionHero__seccion__div-descriptionHero h1{
+        font-size: 28px;
+        height: 40px;
+        margin-bottom: 16px;
+    }
+
+    .div-content-sectionHero__seccion__div-imgHero {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    
+    .div-content-sectionHero{
+        width: 560px;
+        margin: 0 10vw 0 10vw;
+    }
+    
+    .div-content-sectionHero__seccion{
+        width: 100%;
+        padding: 14px 25px 0 25px;
+        margin: 0;
+    }
+
+    .div-content-sectionHero__seccion__div-descriptionHero h1{
+        font-size: 24px;
+        height: 32px;
+        margin-bottom: 16px;
+    }
+
+    .div-content-sectionHero__seccion__div-descriptionHero a{
+        width: 100%;
+    }
+
+    .div-content-sectionHero__seccion__div-imgHero img{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .div-content-sectionHero {
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .div-content-sectionHero__seccion {
+        max-width: 660px;
+    }
+
+    .div-content-sectionHero__seccion__div-descriptionHero h1{
+        padding: 0;
+    }
+
+    .div-content-sectionHero__seccion__div-imgHero img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 430px ) {
+    .div-content-sectionHero__seccion {
+        padding: 0;
+    }
 }

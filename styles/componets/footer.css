@@ -1,0 +1,158 @@
+.div-content-footer {
+    font-family: var(--text-font);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.div-content-footer__footer {
+    display: flex;
+    flex-direction: column;
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Logo And Links Redes */
+
+.div-content-footer__footer__div-content-logoAndLinks{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+}
+
+.div-content-footer__footer__div-content-logoAndLinks__div-logo {
+    margin-bottom: 24px;
+    flex-grow: 1;
+}
+
+.div-content-footer__footer__div-content-logoAndLinks__div-linkRedes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 4;
+}
+
+.div-content-footer__footer__div-content-logoAndLinks__div-linkRedes a {
+    color: #1d1e20;
+    margin-left: 16px;
+}
+
+.div-content-footer__footer__div-content-logoAndLinks__div-linkRedes svg {
+    width: 32px;
+    height: 32px;
+}
+
+/* Credit Crads And Legas */
+.div-content-footer__footer__div-contente-cardsAndLegas {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.div-content-footer__footer__div-contente-cardsAndLegas a {
+    cursor: pointer;
+    color: #673de6;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.div-content-footer__footer__div-contente-cardsAndLegas__div-creditCards {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.div-content-footer__footer__div-contente-cardsAndLegas__div-creditCards img {
+    width: 60px;
+    height: 40px;
+}
+
+.div-content-footer__footer__div-contente-cardsAndLegas__div-linkLegal {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+    gap: 16px;
+}
+
+.div-content-footer__footer__div-contente-cardsAndLegas__div-linkLegal a {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #1d1e20;
+    transition: color .3s ease-in-out;
+}
+
+.div-content-footer__footer__div-contente-cardsAndLegas__div-linkLegal a:hover {
+    color:  #673de6;
+}
+
+.div-content-footer__footer__div-copyRight {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .div-content-footer__footer {
+        max-width: 1128px;
+        margin: 45px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .div-content-footer__footer__div-contente-cardsAndLegas {
+        flex-direction: column-reverse;
+    }
+
+    .div-content-footer__footer__div-contente-cardsAndLegas__div-linkLegal {
+       justify-content: flex-start;
+       margin-bottom: 17px;
+    }
+
+    .div-content-footer__footer__div-copyRight {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    .div-content-footer__footer__div-content-logoAndLinks {
+        flex-direction: column-reverse;
+    }
+
+    .div-content-footer__footer__div-content-logoAndLinks__div-linkRedes {
+       justify-content: space-between;
+       margin-bottom: 17px;
+    }
+
+    .div-content-footer__footer__div-content-logoAndLinks__div-linkRedes a {
+        margin: 0;
+    } 
+}
+
+@media screen and (max-width: 630px) {
+
+    .div-content-footer__footer {
+        margin: auto;
+        padding: 15px;
+    }
+
+    .div-content-footer__footer__div-contente-cardsAndLegas__div-linkLegal {
+        flex-wrap: wrap;
+    }
+
+    .div-content-footer__footer__div-contente-cardsAndLegas__div-creditCards {
+        flex-wrap: wrap;
+    }
+}

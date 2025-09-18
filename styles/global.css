@@ -20,5 +20,42 @@ body{
 main{
     display: flex;
     flex-direction: column;
+    width: 100vw;
     gap: 150px;
+}
+
+  body .button-help {
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #673de6;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    padding: 8px 16px 8px 8px;
+}
+
+.button-help svg {
+    color: #ffff;
+    width: 16px;
+    height: 16px;
+}
+ 
+.button-help span {
+    color: #ffff;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1360px){
+    body{
+        gap: 0px;
+    }
 }
